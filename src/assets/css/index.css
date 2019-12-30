@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.title{
+	height: 96px;
+	background-image: url(../images/login/bg_img.png);
+	background-size: 100% 100%;
+	border-bottom: 2px solid #50A2CD;
+}
+.title h2{
+	line-height: 96px;
+	font-size: 24px;
+	color: #51A5D1;
+}
+.title h2 span{
+	margin-left: 5px;
+	font-size: 19px;
+	color: #656565;
+}
+.content{
+	width: 725px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+.tabChange{
+	background: #fff;
+	display: flex;
+	margin-bottom: 30px;
+}
+.tabChange .active{
+	background-image: url(../images/choice.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.tabChange .active1{
+	background-image: url(../images/login/img1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.tabChange .active2{
+	background-image: url(../images/login/img2.png)!important;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.tabChange div{
+	padding:7px 0;
+	text-align:center;
+	color: #656565;
+	background-image: url(../images/login/yanzh.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/* background: #e7e5e5; */
+	font-size: 13px;
+	flex: 1;
+}
+.tabChange div:not(:first-child){
+	margin-left: -9px;
+}
+.tabChange div:last-child{
+	background-image: url(../images/login/success.png);
+}
+.btn{
+	width: 285px;
+	height: 33px;
+	line-height: 33px;
+	background: #50A2CD;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	margin-top: 10px;
+}
+.twoBtn{
+	width: 140px;
+}
+.twoButton{
+	display: flex;
+}
+.twoButton .twoBtn:first-child{
+	margin-right: 5px;
+}
+.wai_btn{
+	display: flex;
+	flex-direction:  column;
+	 align-items:flex-end;
+}
+.box-card{
+	width: 625px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	padding-right: 90px;
+}
+.xuanzek{
+	width: 286px;
+}
+.haveLogin{
+	width: 285px;
+	text-align: center;
+	padding: 10px 0;
+}
+.haveLogin span{
+	vertical-align: middle;
+}
+.hMargin{
+	margin-bottom: 5px!important;
+}
+.haveLogin{
+	font-size: 10px;
+	color: #9A9C9B;
+}
+.yzm{
+	display: flex;
+	align-items: center;
+}
+.yzmInput{
+	width: 193px;
+}
+.yzmBtn{
+	margin-left: 4px;
+	background: #97CCC0;
+	color: #fff;
+	width: 89px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 10px;
+	text-align: center;
+}
+.success{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.successBox{
+	padding-right: 0!important;
+}
+.success img{
+	margin-top: 20px;
+	width: 72px;
+	height: 64px;
+}
+.success p{
+	color: #E2D082;
+	font-size: 19px;
+	margin-top: 26px;
+}
+.haveLogin i{
+	color: #75CAB3;
+	font-style: normal;
+}
